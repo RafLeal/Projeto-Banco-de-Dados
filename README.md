@@ -9,4 +9,5 @@
 
 # Diagrama Relacional
 
-![image](https://github.com/RafLeal/Projeto-Banco-de-Dados/assets/165904115/94732e3e-4823-4d20-8aa9-543fef9fa5b4)
+![image](https://github.com/RafLeal/Projeto-Banco-de-Dados/assets/165904115/1e5afb9d-f8d7-4b67-a673-04faf23711c0)
+
