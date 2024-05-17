@@ -18,7 +18,7 @@ E finalmente, a execução dos códigos para a extração dos relatórios. Siga 
 
 Abrir arquivo Historico_escolar.sql e copiar código.
 
-É necessario apenas inserir o número do RA do aluno que deseja vizualidar o histórico (RA vai de 1000 a 1050), na parte ":RA".
+É necessario apenas inserir o número do RA do aluno que deseja vizualizar o histórico (RA vai de 1000 a 1050), na parte ":RA".
 
 Existem 3 tipos de situações que podem ocorrer:
 
