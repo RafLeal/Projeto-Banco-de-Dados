@@ -2,8 +2,14 @@ CREATE TABLE Alunos
 (
   RA INT NOT NULL,
   Nome CHAR(30) NOT NULL,
-  Ano_ingresso INT NOT NULL,
   PRIMARY KEY (RA)
+);
+
+CREATE TABLE Professor
+(
+  Professor_ID INT NOT NULL,
+  Nome CHAR(30) NOT NULL,
+  PRIMARY KEY (Professor_ID)
 );
 
 CREATE TABLE Curso
@@ -11,6 +17,43 @@ CREATE TABLE Curso
   Curso_ID INT NOT NULL,
   Nome CHAR(30) NOT NULL,
   PRIMARY KEY (Curso_ID)
+);
+
+CREATE TABLE Orientacao_TCC
+(
+  Orientacao_ID INT NOT NULL,
+  Titulo CHAR(50) NOT NULL,
+  RA INT NOT NULL,
+  Professor_ID INT NOT NULL,
+  PRIMARY KEY (Orientacao_ID),
+  FOREIGN KEY (RA) REFERENCES Alunos(RA),
+  FOREIGN KEY (Professor_ID) REFERENCES Professor(Professor_ID)
+);
+
+CREATE TABLE Departamento
+(
+  Departamento_ID INT NOT NULL,
+  Nome CHAR(30) NOT NULL,
+  Chefe_ID INT NOT NULL,
+  PRIMARY KEY (Departamento_ID),
+  FOREIGN KEY (Chefe_ID) REFERENCES Professor(Professor_ID)
+);
+
+CREATE TABLE TCC
+(
+  TCC_ID INT NOT NULL,
+  Titulo CHAR(30) NOT NULL,
+  Professor_ID INT NOT NULL,
+  PRIMARY KEY (TCC_ID),
+  FOREIGN KEY (Professor_ID) REFERENCES Professor(Professor_ID)
+);
+
+CREATE TABLE TCC_Aluno
+(
+  RA INT NOT NULL,
+  TCC_ID INT NOT NULL,
+  FOREIGN KEY (RA) REFERENCES Alunos(RA),
+  FOREIGN KEY (TCC_ID) REFERENCES TCC(TCC_ID)
 );
 
 CREATE TABLE Matriz_Curricular
@@ -22,12 +65,12 @@ CREATE TABLE Matriz_Curricular
   FOREIGN KEY (Curso_ID) REFERENCES Curso(Curso_ID)
 );
 
-CREATE TABLE Professor
+CREATE TABLE Disciplina
 (
-  Professor_ID INT NOT NULL,
+  Disciplina_ID INT NOT NULL,
   Nome CHAR(30) NOT NULL,
   Departamento_ID INT NOT NULL,
-  PRIMARY KEY (Professor_ID),
+  PRIMARY KEY (Disciplina_ID),
   FOREIGN KEY (Departamento_ID) REFERENCES Departamento(Departamento_ID)
 );
 
@@ -51,34 +94,6 @@ CREATE TABLE Matriz_Curricular_Disciplina
   PRIMARY KEY (Matriz_ID, Disciplina_ID),
   FOREIGN KEY (Matriz_ID) REFERENCES Matriz_Curricular(Matriz_ID),
   FOREIGN KEY (Disciplina_ID) REFERENCES Disciplina(Disciplina_ID)
-);
-
-CREATE TABLE Orientacao_TCC
-(
-  Orientacao_ID INT NOT NULL,
-  Titulo CHAR(50) NOT NULL,
-  RA INT NOT NULL,
-  Professor_ID INT NOT NULL,
-  FOREIGN KEY (RA) REFERENCES Alunos(RA),
-  FOREIGN KEY (Professor_ID) REFERENCES Professor(Professor_ID)
-);
-
-CREATE TABLE Disciplina
-(
-  Disciplina_ID INT NOT NULL,
-  Nome CHAR(30) NOT NULL,
-  Departamento_ID INT NOT NULL,
-  PRIMARY KEY (Disciplina_ID),
-  FOREIGN KEY (Departamento_ID) REFERENCES Departamento(Departamento_ID)
-);
-
-CREATE TABLE Departamento
-(
-  Departamento_ID INT NOT NULL,
-  Nome CHAR(30) NOT NULL,
-  Chefe_ID INT NOT NULL,
-  PRIMARY KEY (Departamento_ID),
-  FOREIGN KEY (Chefe_ID) REFERENCES Professor(Professor_ID)
 );
 
 CREATE TABLE Notas
