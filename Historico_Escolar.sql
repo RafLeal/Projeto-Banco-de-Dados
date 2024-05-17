@@ -14,6 +14,6 @@ JOIN
 JOIN
     Alunos a ON m.RA = a.RA
 WHERE
-    a.RA = 1018 -- Substitua :RA pelo RA do aluno que você deseja consultar
+    a.RA = :RA -- Substitua :RA pelo RA do aluno que você deseja consultar
 ORDER BY
     m.Ano, m.Semestre, d.Nome;
