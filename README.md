@@ -32,7 +32,7 @@ Existem 3 tipos de situações que podem ocorrer:
 
 ***4-) Professores Chefes***
 
-***5-) Grupo TCC***
+***5-) TCC***
 
 # Diagrama Relacional
 
