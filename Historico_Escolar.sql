@@ -1,19 +1,12 @@
-SELECT
-    a.Nome AS Aluno_Nome,
-    d.Disciplina_ID,
-    d.Nome AS Disciplina_Nome,
-    m.Semestre,
-    m.Ano,
-    n.Nota AS Nota_Final
-FROM
-    Matricula m
-JOIN
-    Disciplina d ON m.Disciplina_ID = d.Disciplina_ID
-JOIN
-    Notas n ON m.Matricula_ID = n.Matricula_ID
-JOIN
-    Alunos a ON m.RA = a.RA
+SELECT 
+    D.Disciplina_ID AS Codigo_Disciplina,
+    D.Nome AS Nome_Disciplina,
+    M.Semestre,
+    M.Ano,
+    N.Nota
+FROM 
+    Matricula M
+    JOIN Disciplina D ON M.Disciplina_ID = D.Disciplina_ID
+    JOIN Notas N ON M.Matricula_ID = N.Matricula_ID
 WHERE
-    a.RA = :RA -- Substitua :RA pelo RA do aluno que você deseja consultar
-ORDER BY
-    m.Ano, m.Semestre, d.Nome;
+    M.RA = :RA; -- Substitua :RA com o RA do aluno desejado
