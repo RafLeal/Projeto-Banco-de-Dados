@@ -15,6 +15,6 @@ WHERE
         SELECT 1
         FROM Matricula M
         WHERE M.RA = A.RA 
-		AND M.Ano = 2023 -- Substitua com o ano desejado
-		AND M.Semestre = 2 -- Substitua com o semestre desejado
+		AND M.Ano = :Ano -- Substitua com o ano desejado
+		AND M.Semestre = :Semestre -- Substitua com o semestre desejado
     );
