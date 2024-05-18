@@ -7,5 +7,5 @@ SELECT
 FROM 
     Orientacao_TCC O
     JOIN Alunos A1 ON O.RA = A1.RA
-    JOIN Alunos A2 ON O.RA2 = A2.RA
+    JOIN Alunos A2 ON O.RA2 = A2.RA AND A1.RA <> A2.RA
     JOIN Professor P ON O.Professor_ID = P.Professor_ID;
