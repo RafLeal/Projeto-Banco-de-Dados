@@ -60,6 +60,13 @@ SELECT
     generate_series(1, 10) as Disciplina_ID;
 
 -- Populando a tabela Notas
+INSERT INTO Notas (Nota_ID, Nota, Matricula_ID)
+SELECT 
+    generate_series(1, 20) as Nota_ID, 
+    (random() * 9 + 1)::int as Nota, 
+    generate_series(1, 20) as Matricula_ID;
+
+-- Populando a tabela Orientacao_TCC
 INSERT INTO Orientacao_TCC (Orientacao_ID, Titulo, RA, RA2, Professor_ID)
 SELECT 
     generate_series(1, 5) as Orientacao_ID,
