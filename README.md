@@ -32,6 +32,8 @@ Existem 3 tipos de situações que podem ocorrer:
 
 ***4-) Professores Chefes***
 
+Abrir arquivo Professor_Chefe.sql, copiar código e executar.
+
 ***5-) TCC***
 
 # Diagrama Relacional
