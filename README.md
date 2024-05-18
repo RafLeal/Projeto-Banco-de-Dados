@@ -7,7 +7,9 @@
 
 # Execução Código
 
-Todos os códigos forem feitos e testados no pgAdmin 4.
+<br></br>
+**OBSERVAÇÃO:** Todos os códigos forem feitos e testados no pgAdmin 4.
+<br></br>
 
 Primeiramente, é necessario pegar todo o código do arquivo Tabelas.sql e rodar, para que sejam criadas todas as tabelas necessarias.
 
