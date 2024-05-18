@@ -28,6 +28,10 @@ Abrir arquivo Historico_Disciplinas.sql e copiar código.
 
 ***3-) Alunos Formados***
 
+Abrir arquivo Alunos_formados.sql e copiar código.
+
+É necessario inserir o ano que deseja visualizar (Ano vai de 2018 até 2023) na parte ":Ano", e tambem inserir o semestre que deseja visualizar (1 ou 2 semestre) na parte ":Semestre", e então por fim, executar o código.
+
 ***4-) Professores Chefes***
 
 Abrir arquivo Professor_Chefe.sql, copiar código e executar.
