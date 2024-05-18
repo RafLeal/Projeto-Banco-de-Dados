@@ -38,8 +38,11 @@ Abrir arquivo Professor_Chefe.sql, copiar código e executar.
 
 ***5-) TCC***
 
+Abrir arquivo TCC.sql, copiar código e executar.
+
 # Diagrama Relacional
 
-![image](https://github.com/RafLeal/Projeto-Banco-de-Dados/assets/165904115/4bb26165-6e84-48ae-b761-df93ef445845)
+![image](https://github.com/RafLeal/Projeto-Banco-de-Dados/assets/165904115/690f67e2-210f-4701-b3fa-51ff6728b600)
+
 
 
