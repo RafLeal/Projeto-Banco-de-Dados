@@ -16,11 +16,15 @@ E finalmente, a execução dos códigos para a extração dos relatórios. Siga 
 
 ***1-) Historico Escolar***
 
-Abrir arquivo Historico_escolar.sql e copiar código.
+Abrir arquivo Historico_Escolar.sql e copiar código.
 
-É necessario apenas inserir o número do RA do aluno que deseja vizualizar o histórico (RA vai de 1 a 20), na parte ":RA".
+É necessario apenas inserir o número do RA do aluno que deseja vizualizar o histórico (RA vai de 1 a 20), na parte ":RA", e então, executar o código
 
 ***2-) Historico de Disciplinas***
+
+Abrir arquivo Historico_Disciplinas.sql e copiar código.
+
+É necessario apenas inserir o número do ID do professor que deseja vizualizar o histórico de disciplinas (ID do professor vai de 1 a 5), na parte ":ID", e então, executar o código.
 
 ***3-) Alunos Formados***
 
