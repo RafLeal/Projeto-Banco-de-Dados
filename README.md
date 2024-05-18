@@ -7,9 +7,11 @@
 
 # Execução Código
 
+Todos os códigos forem feitos e testados no pgAdmin 4.
+
 Primeiramente, é necessario pegar todo o código do arquivo Tabelas.sql e rodar, para que sejam criadas todas as tabelas necessarias.
 
-Depois, é necessario acessar o arquivo Dados_aleatorios.sql, e rodar os códigos separadamente e em ordem, começando pelo Alunos e terminando em Notas. É possivel identificar qual código pertence a qual tabela pelos comentarios acima deles.
+Depois, é necessario acessar o arquivo Dados_aleatorios.sql, copiar todo o código e executa-lo.
 
 E finalmente, a execução dos códigos para a extração dos relatórios. Siga a ordem a seguir:
 <br></br>
