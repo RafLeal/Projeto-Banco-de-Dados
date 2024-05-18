@@ -1,19 +1,15 @@
 -- Relatório de histórico de disciplinas ministradas por um professor
-SELECT
-    p.Nome AS Professor_Nome,
-    d.Disciplina_ID,
-    d.Nome AS Disciplina_Nome,
-    m.Semestre,
-    m.Ano
-FROM
-    Matricula m
-JOIN
-    Disciplina d ON m.Disciplina_ID = d.Disciplina_ID
-JOIN
-    Departamento dep ON d.Departamento_ID = dep.Departamento_ID
-JOIN
-    Professor p ON dep.Chefe_ID = p.Professor_ID
-WHERE
-    p.Professor_ID = 106 -- Substitua :Professor_ID pelo ID do professor que você deseja consultar
-ORDER BY
-    m.Ano, m.Semestre, d.Nome;
+SELECT 
+    PD.Professor_ID,
+    P.Nome AS Professor,
+    D.Disciplina_ID,
+    D.Nome AS Disciplina,
+    M.Semestre,
+    M.Ano
+FROM 
+    Professor_Disciplina PD
+    JOIN Professor P ON PD.Professor_ID = P.Professor_ID
+    JOIN Disciplina D ON PD.Disciplina_ID = D.Disciplina_ID
+    JOIN Matricula M ON D.Disciplina_ID = M.Disciplina_ID
+WHERE 
+    P.Professor_ID = :ID; -- Substitua :ID pelo ID do professor desejado
