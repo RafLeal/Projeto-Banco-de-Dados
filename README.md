@@ -18,13 +18,7 @@ E finalmente, a execução dos códigos para a extração dos relatórios. Siga 
 
 Abrir arquivo Historico_escolar.sql e copiar código.
 
-É necessario apenas inserir o número do RA do aluno que deseja vizualizar o histórico (RA vai de 1000 a 1050), na parte ":RA".
-
-Existem 3 tipos de situações que podem ocorrer:
-
-* O aluno possuir apenas uma matricula, contendo apenas uma disciplina, o semestre, o ano e a nota final
-* Alguns alunos podem possuir mais de uma matricula, pois é possivel fazer mais de um curso. Isso faz com que possam aparecer 2 ou mais vezes, porem cada linha com uma disciplina, ano e nota diferente
-* Alguns alunos podem não possuir matricula, tendo apenas, por exemplo, realizado o vestibular e passado na faculdade, mas decidido não se matricular, possuindo apenas seu nome e RA mas não sua matricula
+É necessario apenas inserir o número do RA do aluno que deseja vizualizar o histórico (RA vai de 1 a 20), na parte ":RA".
 
 ***2-) Historico de Disciplinas***
 
