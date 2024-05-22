@@ -1,4 +1,3 @@
--- Relatório de histórico de disciplinas ministradas por um professor
 SELECT 
     PD.Professor_ID,
     P.Nome AS Professor,
