@@ -22,6 +22,8 @@ E finalmente, a execução dos códigos para a extração dos relatórios. Siga 
 
 Abrir arquivo Historico_Escolar.sql e copiar código.
 
+Este arquivo fornece o código e nome da disciplina do aluno, junto com seu semestre, ano e nota final.
+
 É necessario apenas inserir o número do RA do aluno que deseja vizualizar o histórico (RA vai de 1 a 20), na parte ":RA", e então, executar o código
 
 ***2-) Historico de Disciplinas***
