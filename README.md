@@ -11,16 +11,16 @@
 **OBSERVAÇÃO:** Todos os códigos forem feitos e testados no pgAdmin 4.
 <br></br>
 
-Primeiramente, é necessario pegar todo o código do arquivo Tabelas.sql e rodar, para que sejam criadas todas as tabelas necessarias.
+Primeiramente, é necessario pegar todo o código do arquivo `Tabelas.sql` e rodar, para que sejam criadas todas as tabelas necessarias.
 
-Depois, é necessario acessar o arquivo Dados_aleatorios.sql, copiar todo o código e executa-lo.
+Depois, é necessario acessar o arquivo `Dados_aleatorios.sql`, copiar todo o código e executa-lo.
 
 E finalmente, a execução dos códigos para a extração dos relatórios. Siga a ordem a seguir:
 <br></br>
 
 ***1-) Historico Escolar***
 
-Abrir arquivo Historico_Escolar.sql e copiar código.
+Abrir arquivo `Historico_Escolar.sql` e copiar código.
 
 Este código fornece, o(s) código(s) e nome(s) da(s) disciplina(s) do aluno, junto com seu(s) respectivo(s) semestre(s), ano(s) e nota(s) final. 
 
@@ -28,7 +28,7 @@ Este código fornece, o(s) código(s) e nome(s) da(s) disciplina(s) do aluno, ju
 
 ***2-) Historico de Disciplinas***
 
-Abrir arquivo Historico_Disciplinas.sql e copiar código.
+Abrir arquivo `Historico_Disciplinas.sql` e copiar código.
 
 Este código fornece, o ID do professor, seu nome, o código e nome da(s) disciplina(s) que ministra, junto de seu(s) respectivo(s) semestre(s) e ano(s).
 
@@ -36,7 +36,7 @@ Este código fornece, o ID do professor, seu nome, o código e nome da(s) discip
 
 ***3-) Alunos Formados***
 
-Abrir arquivo Alunos_formados.sql e copiar código.
+Abrir arquivo `Alunos_formados.sql` e copiar código.
 
 Este código fornece, o RA e o nome do(s) aluno(s) que se formaram.
 
@@ -44,13 +44,13 @@ Este código fornece, o RA e o nome do(s) aluno(s) que se formaram.
 
 ***4-) Professores Chefes***
 
-Abrir arquivo Professor_Chefe.sql, copiar código e executar.
+Abrir arquivo `Professor_Chefe.sql`, copiar código e executar.
 
 Este código fornece, os nomes dos professores e quais depertamentods eles chefiam. Um professor pode chefiar mais de um departamento.
 
 ***5-) TCC***
 
-Abrir arquivo TCC.sql, copiar código e executar.
+Abrir arquivo `TCC.sql`, copiar código e executar.
 
 Este código fornece, o código do TCC, junto de seu título, os alunos participantes e o professor orientador.
 
