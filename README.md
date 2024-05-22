@@ -52,7 +52,7 @@ Este código fornece, os nomes dos professores e quais depertamentods eles chefi
 
 Abrir arquivo TCC.sql, copiar código e executar.
 
-Este código fornece,
+Este código fornece, o código do TCC, junto de seu título, os alunos participantes e o professor orientador.
 
 # Diagrama Relacional
 
