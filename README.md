@@ -46,11 +46,13 @@ Este código fornece, o RA e o nome do(s) aluno(s) que se formaram.
 
 Abrir arquivo Professor_Chefe.sql, copiar código e executar.
 
-Este código fornece, 
+Este código fornece, os nomes dos professores e quais depertamentods eles chefiam. Um professor pode chefiar mais de um departamento.
 
 ***5-) TCC***
 
 Abrir arquivo TCC.sql, copiar código e executar.
+
+Este código fornece,
 
 # Diagrama Relacional
 
