@@ -30,6 +30,8 @@ Este arquivo fornece o código e nome da disciplina do aluno, junto com seu seme
 
 Abrir arquivo Historico_Disciplinas.sql e copiar código.
 
+Este arquivo fornece o ID do professor, seu nome, a o código e nome das disciplinas que ministra, junto do semestre e ano.
+
 É necessario apenas inserir o número do ID do professor que deseja vizualizar o histórico de disciplinas (ID do professor vai de 1 a 5), na parte ":ID", e então, executar o código.
 
 ***3-) Alunos Formados***
